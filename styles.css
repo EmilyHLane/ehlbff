@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	background-color: #FCFBF3;
+}
+.poem-section p {
+	font-family: 'Tinos', serif;
+	font-style: italic;
+}
+.response-section p {
+	font-family: 'Carrois Gothic', sans-serif;
+	font-size: 25px;
+}
+.d-flex {
+	display: flex;
+}
+.poem-section {
+	width: 30%;
+	background-color: #222;
+	color: #666;
+	padding: 5rem 2rem;
+	height: 100vh;
+}
+.poem-section .done {
+	color: #FCFBF3;
+}
+.response-section {
+	width: 70%;
+	margin: 5rem 2rem;
+}
+.response-section p, .response-section .photo {
+	width: 50%;
+	margin: 1rem;
+	padding: 1rem;
+	background-color: #FCFBF3;
+}
+img {
+	max-width: 100%;
+	background-color: #FCFBF3;
+}
+.questions>p {
+	display: inline;
+}
