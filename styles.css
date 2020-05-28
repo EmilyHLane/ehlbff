@@ -1,15 +1,18 @@
 .d-flex {
 	display: flex;
 }
-.border-black {
+/*.border-black {
 	border: 1px solid black;
-}
+}*/
 .p-0 {
 	padding: 0;
 }
+.p-3 {
+	padding-top: 3rem;
+}
 body {
 	margin: 0;
-	background-color: #FCFBF3;
+	background-color: #111;
 }
 .poem-section p {
 	font-family: 'Tinos', serif;
@@ -17,11 +20,11 @@ body {
 }
 .response-section p {
 	font-family: 'Carrois Gothic', sans-serif;
-	font-size: 25px;
+	font-size: 20px;
 }
 .poem-section {
 	width: 30%;
-	background-color: #222;
+	background-color: #111;
 	color: #666;
 	padding: 5rem 2rem;
 	height: 100vh;
@@ -31,18 +34,47 @@ body {
 }
 .response-section {
 	width: 70%;
-	margin: 5rem 2rem;
 }
 .response-section p, .response-section .photo {
 	width: 50%;
 	margin: 1rem;
 	padding: 1rem;
-	background-color: #FCFBF3;
+	background-color: #fff;
 }
 img {
 	max-width: 100%;
-	background-color: #FCFBF3;
+	background-color: #fff;
 }
 .questions>p {
 	display: inline;
+}
+
+.questions>.haircut.done {
+	color: #00EEFF;
+}
+.response-section>.haircut p, .response-section>.haircut {
+	background-color: #00EEFF;
+}
+.questions>.spoon.done {
+	color: #FF9600;
+}
+.response-section>.spoon div, .response-section>.spoon, .response-section>.spoon img {
+	background-color: #FF9600;
+}
+.questions>.posture.done {
+	color: #FF0DFB;
+}
+.response-section>.posture div, .response-section>.posture {
+	background-color: #FF0DFB;
+}
+
+
+@media all and (max-width: 425px) {
+	.poem-section, .response-section {
+		width: 100%;
+	}
+	.d-flex {
+		flex-direction: column;
+	}
+
 }
